@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/functions";
+@import "vender/bootstrap-var";
+@import "~bootstrap/scss/bootstrap";
+@import "_utile";
+
+@mixin _bg{
+    padding: 2rem;
+    background-color: $secondary;
+    border-radius: 1rem;
+}
+
+.article{
+    @include _bg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.articlePage{
+    @include _bg
+}
+
+.login{
+    @include _bg;
+    border: 1px solid $primary;
+}
+
+.date{
+    display: block;
+    color: #999;
+}
+
+.sideBar{
+    @include _bg;
+    height:  calc( 100% - 16px);
+}
+img{
+    width: 100%;
+}
+
+*{
+    // outline: 1px solid red;
+}

@@ -1,5 +1,7 @@
 # vue_blog
 
+use vue-cli
+
 ## Project setup
 ```
 npm install

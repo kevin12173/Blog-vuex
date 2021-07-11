@@ -1,0 +1,16 @@
+.pointer{
+    cursor: pointer;
+    &:hover{
+        color: rgba($primary,0.8)
+    }
+}
+
+@media (min-width: 767px) {
+    .w-mb-50{
+        width: 50% !important;
+    }
+    .min-mb-100vh{
+        height: auto;
+        min-height: calc(100vh - 88px);
+    }
+}
